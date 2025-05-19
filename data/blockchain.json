@@ -1,0 +1,25 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": "1747673322942",
+      "data": {
+        "mensaje": "Bloque Génesis"
+      },
+      "previousHash": "0",
+      "hash": "6ad1b503048e394be163d27ae80a1098d0720b4af7f8c29de2b735d97ea56844"
+    },
+    {
+      "index": 1,
+      "timestamp": "1747673461168",
+      "data": {
+        "donor": "Ernesto Esqueda Guzman",
+        "receiver": "Carlos",
+        "type": "Dinero",
+        "quantity": "$100 MXN"
+      },
+      "previousHash": "6ad1b503048e394be163d27ae80a1098d0720b4af7f8c29de2b735d97ea56844",
+      "hash": "cdea685f9c1e033953a2c7c51abf515015a0eafd0cc6bd6abc339f254ad5ef51"
+    }
+  ]
+}

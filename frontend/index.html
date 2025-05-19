@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>FoodChain - Donaciones Transparentes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🍽️ FoodChain - Registro de Donaciones</h1>
+
+  <section id="formulario">
+    <h2>Registrar nueva donación</h2>
+    <form id="donationForm">
+      <input type="text" id="donor" placeholder="Donador" required>
+      <input type="text" id="receiver" placeholder="Receptor" required>
+      <input type="text" id="type" placeholder="Tipo de ayuda (comida, dinero, etc.)" required>
+      <input type="text" id="quantity" placeholder="Cantidad (ej: 20kg arroz)" required>
+      <button type="submit">Registrar Donación</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+  <section id="historial">
+    <h2>📜 Historial de Bloques</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Fecha</th>
+          <th>Donador</th>
+          <th>Receptor</th>
+          <th>Tipo</th>
+          <th>Cantidad</th>
+        </tr>
+      </thead>
+      <tbody id="blockList">
+        <!-- Se insertan bloques aquí -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
